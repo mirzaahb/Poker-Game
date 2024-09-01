@@ -3,7 +3,7 @@ import React from 'react';
 const PokerTable = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-red-800 via-red-500 to-red-800 flex justify-center items-center p-4">
-      <div className="relative w-full max-w-4xl bg-green-600 rounded-full h-[50vh] sm:h-[60vh] lg:h-[70vh] overflow-hidden shadow-xl">
+      <div className="relative w-full max-w-7xl bg-green-600 rounded-full h-[50vh] sm:h-[60vh] lg:h-[70vh] overflow-hidden shadow-xl">
         
         {/* Pot and Round Info */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-700 text-white p-4 rounded-lg text-center">
